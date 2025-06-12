@@ -17,13 +17,18 @@ No installation required if you're running it locally — just follow these step
 🚀 Technologies Used
 
 -HTML5
+
 -JavaScript (Vanilla)
+
 -Tailwind CSS (via CDN)
 
 🎮 How to Play
-Enter a number between 1 and 100.
+-Enter a number between 1 and 100.
+
 -You have 10 attempts to guess the correct number.
+
 -Feedback will be given after each guess.
+
 -Game ends if you guess correctly or run out of attempts.
 
 📂 Project Structure
