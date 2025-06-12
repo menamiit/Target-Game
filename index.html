@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Game</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#9333EA] h-screen flex justify-center items-center">
+    <div id="wrapper" class="bg-[#FFF] font-serif h-120 w-130 flex items-center rounded-xl shadow-lg flex-col">
+        <h1 class="text-5xl font-bold text-[#4F46E5] pt-20 pb-15">Target Game</h1>
+        <input id="myInput" class="text-3xl font-bold text-[#6366F1] rounded-xl shadow-xl text-center border-[#D1D5DB] focus:ring-2 focus:ring-indigo-400 outline-none" type="text" placeholder="Choose a number 1-100"/>
+        <div class="flex flex-row">
+            <button id="reset" class="bg-size-[100px_100px] text-3xl font-bold m-12 bg-[#6366F1] text-[#FFF] rounded-xl cursor-pointer hover:bg-[#4F46E5] shadow-2xl">reset</button>
+            <button id="submitBtn" class="bg-size-[100px_100px] text-3xl font-bold bg-[#6366F1] text-[#FFF] rounded-xl m-12 cursor-pointer hover:bg-[#4F46E5]">Submit</button>
+        </div>
+        <output id="result" class="font-bold text-gray-700 pt-8"></output>
+        <div id="attempts" class="font-bold text-gray-700 pt-8">10 attempts remaining</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
