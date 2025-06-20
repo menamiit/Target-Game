@@ -3,6 +3,8 @@
 A simple number guessing game built using HTML, CSS (Tailwind), and JavaScript.  
 The player gets a limited number of attempts to guess the correct number between 1 and 100.
 
+<a href="https://menamiit.github.io/Target-Game/">Click to Play Now!</a>
+
 ## 🛠️ Installation
 
 No installation required if you're running it locally — just follow these steps:
